@@ -3,7 +3,7 @@
 #include <ctime>
 using namespace std;
 
-int main(int argc, char *argv[]) {
+int main() {
 	srand(time(0));
 	int m[3][3],diagonalprincipal=0,diagonalsecundaria=0,seccion1=0,seccion2=0;
 	for(int i=0; i<3; i++){
@@ -19,8 +19,7 @@ int main(int argc, char *argv[]) {
 	}
 	cout<<"\nLa suma de la diagonal principal es "<<diagonalprincipal<<endl;
 	cout<<"\nLa suma de la diagonal secundaria es "<<diagonalsecundaria<<endl;
-	cout<<"\nLa suma de la primera sección es "<<seccion1<<endl;
-	cout<<"\nLa suma de la segunda sección es "<<seccion2;
+	cout<<"\nLa suma de la primera secciÃ³n es "<<seccion1<<endl;
+	cout<<"\nLa suma de la segunda secciÃ³n es "<<seccion2;
 	return 0;
 }
-
